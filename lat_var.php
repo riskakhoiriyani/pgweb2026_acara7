@@ -1,17 +1,26 @@
 <?php
-$pesan = "Selamat Belajar";
-//echo "Halo, Selamat Siang" .$pesan;
 
-$cars = array("Mangga", "Durian", "Semangka");
-echo $cars[1];
+//DATA SINGKAT
+$pesan = "NIM 25/556044/SV/25874 ";
+echo "Nama Saya Riska Khoiriyani " . "<br>" . $pesan . "<br>";
 
-$x = $x + $y;
-$x += $y;
+//DATA ARRAY
+$cars = array("Volvo", "BMW", "Toyota");
+echo $cars[1]."<br>";
 
-$x = $x . $y;
-$x .= $y;
+//PERKALIAN
+$x = 8;
+$y = 3;
+$hasil = $x * $y;
+echo $hasil."<br>";
 
-$x++;
+//MENGHUBUNGKAN ANGKA   
+$hasil_penghubung = $x . $y;
+echo $hasil_penghubung;
 
+// $x = $x + $y;
+// $x += $y;
 
+// $x = $x . $y;
+// $x .= $y;
 ?>
